@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <main>
+        <div id="container">
+
+            <div id="app">
+
+                <div id="header">
+                    <h1>Convert a Temperature</h1>
+                </div>
+
+                <div id="converter">
+
+                    <div class="number-field-wrapper">
+                        <input type="number" id="initial-number" class="number-field" name="initial-number">
+                    </div>
+
+                    <div class="switch-wrapper">
+                        <input id="celsius" type="radio" name="switch" value="C" >
+                        <label for="celsius">Celsius</label>
+                        <input id="fahrenheit" type="radio" name="switch" value="F">
+                        <label for="fahrenheit">Fahrenheit</label>
+                        <span class="highlighter"></span>
+                    </div>
+
+                    
+                    <div id="result">
+                        <div id="result-number" class="result-field"></div>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

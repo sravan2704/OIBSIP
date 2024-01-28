@@ -1,0 +1,61 @@
+/* Apply styles to the entire body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main container */
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header */
+#header {
+    text-align: center;
+}
+
+/* Style the converter section */
+#converter {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Style the number input field */
+.number-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Style the switch wrapper */
+.switch-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Style the radio buttons and labels */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style the result section */
+#result {
+    margin-top: 20px;
+}
+
+/* Style the result number field */
+#result-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.407)
+}
